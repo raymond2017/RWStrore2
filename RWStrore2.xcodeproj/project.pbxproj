@@ -8,19 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4DCB60C8226C8E1300EEDE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB60C7226C8E1300EEDE04 /* AppDelegate.swift */; };
-		4DCB60CA226C8E1300EEDE04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB60C9226C8E1300EEDE04 /* ViewController.swift */; };
 		4DCB60CC226C8E1500EEDE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB60CB226C8E1500EEDE04 /* Assets.xcassets */; };
 		4DCB60CF226C8E1500EEDE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB60CD226C8E1500EEDE04 /* Main.storyboard */; };
+		4DCB60D9226C8E2800EEDE04 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB60D7226C8E2700EEDE04 /* Product.swift */; };
+		4DCB60DA226C8E2800EEDE04 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB60D8226C8E2700EEDE04 /* Products.plist */; };
+		4DCB60DC226C8F9900EEDE04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB60DB226C8F9900EEDE04 /* MainViewController.swift */; };
+		4DCB60DE226C949C00EEDE04 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB60DD226C949C00EEDE04 /* OverviewController.swift */; };
+		4DCB60E0226C94AF00EEDE04 /* DetailsviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB60DF226C94AF00EEDE04 /* DetailsviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DCB60C4226C8E1300EEDE04 /* RWStrore2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWStrore2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCB60C7226C8E1300EEDE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DCB60C9226C8E1300EEDE04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DCB60CB226C8E1500EEDE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCB60CE226C8E1500EEDE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DCB60D0226C8E1500EEDE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DCB60D1226C8E1500EEDE04 /* RWStrore2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RWStrore2.entitlements; sourceTree = "<group>"; };
+		4DCB60D7226C8E2700EEDE04 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4DCB60D8226C8E2700EEDE04 /* Products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		4DCB60DB226C8F9900EEDE04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4DCB60DD226C949C00EEDE04 /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
+		4DCB60DF226C94AF00EEDE04 /* DetailsviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +61,16 @@
 		4DCB60C6226C8E1300EEDE04 /* RWStrore2 */ = {
 			isa = PBXGroup;
 			children = (
+				4DCB60D7226C8E2700EEDE04 /* Product.swift */,
+				4DCB60D8226C8E2700EEDE04 /* Products.plist */,
 				4DCB60C7226C8E1300EEDE04 /* AppDelegate.swift */,
-				4DCB60C9226C8E1300EEDE04 /* ViewController.swift */,
 				4DCB60CB226C8E1500EEDE04 /* Assets.xcassets */,
 				4DCB60CD226C8E1500EEDE04 /* Main.storyboard */,
 				4DCB60D0226C8E1500EEDE04 /* Info.plist */,
 				4DCB60D1226C8E1500EEDE04 /* RWStrore2.entitlements */,
+				4DCB60DB226C8F9900EEDE04 /* MainViewController.swift */,
+				4DCB60DD226C949C00EEDE04 /* OverviewController.swift */,
+				4DCB60DF226C94AF00EEDE04 /* DetailsviewController.swift */,
 			);
 			path = RWStrore2;
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 			files = (
 				4DCB60CC226C8E1500EEDE04 /* Assets.xcassets in Resources */,
 				4DCB60CF226C8E1500EEDE04 /* Main.storyboard in Resources */,
+				4DCB60DA226C8E2800EEDE04 /* Products.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCB60CA226C8E1300EEDE04 /* ViewController.swift in Sources */,
+				4DCB60DC226C8F9900EEDE04 /* MainViewController.swift in Sources */,
+				4DCB60E0226C94AF00EEDE04 /* DetailsviewController.swift in Sources */,
 				4DCB60C8226C8E1300EEDE04 /* AppDelegate.swift in Sources */,
+				4DCB60DE226C949C00EEDE04 /* OverviewController.swift in Sources */,
+				4DCB60D9226C8E2800EEDE04 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
